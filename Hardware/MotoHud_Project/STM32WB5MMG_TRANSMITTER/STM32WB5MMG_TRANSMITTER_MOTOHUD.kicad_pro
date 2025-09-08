@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.45
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -190,7 +190,8 @@
         0.0,
         0.2,
         0.35,
-        0.5
+        0.5,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,7 +225,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 1.7,
+          "diameter": 2.0,
           "drill": 0.8
         }
       ],
