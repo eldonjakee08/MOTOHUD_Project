@@ -1,0 +1,11 @@
+../Drivers/MCP2515_Driver/mcp2515_driver.c:21:13:MCP2515_SPI_Transmit	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:41:13:MCP2515_SPI_TransmitReceive	3
+../Drivers/MCP2515_Driver/mcp2515_driver.c:82:6:MCP2515_SPI_Reset	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:93:6:MCP2515_SPI_RequestToSend	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:109:6:MCP2515_SPI_BitModify	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:130:6:MCP2515_SPI_WriteRegister	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:155:6:MCP2515_SPI_LoadTxBuffer	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:178:6:MCP2515_SPI_ReadStatus	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:201:6:MCP2515_SPI_RxStatus	1
+../Drivers/MCP2515_Driver/mcp2515_driver.c:225:6:MCP2515_SPI_ReadRegister	2
+../Drivers/MCP2515_Driver/mcp2515_driver.c:253:6:MCP2515_SPI_ReadRxBuffer	2
