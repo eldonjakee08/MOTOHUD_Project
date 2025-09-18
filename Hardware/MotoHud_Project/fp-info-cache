@@ -1,4 +1,4 @@
-25627406583213869
+25648496516323691
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2687,6 +2687,20 @@ STM32WB5MMG_CUSTOM_DEVBOARD
 0
 51
 48
+CUSTOM_MODULES
+3.5mm_AudioJack_PJ-320A
+
+
+0
+4
+4
+CUSTOM_MODULES
+3.5mm_AudioJack_PJ-320A_NoGuide
+
+
+0
+4
+4
 CUSTOM_MODULES
 LM3671_MODULE
 
@@ -93856,6 +93870,76 @@ resistor
 4
 2
 STM32WB_BREAKOUT_BOARD
+ST-SiP-LGA-86-11x7.3mm
+STM32WB5MMG  Module, LGA86L 11x7.3
+bluetooth bluetooth5 bluetooth5.0 802.15.4 zigbee thread module stm32 rf
+0
+86
+86
+STM32_BREAKOUT_BOARD_TRIAL
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+STM32_BREAKOUT_BOARD_TRIAL
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+STM32_BREAKOUT_BOARD_TRIAL
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+STM32_BREAKOUT_BOARD_TRIAL
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+STM32_BREAKOUT_BOARD_TRIAL
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+STM32_BREAKOUT_BOARD_TRIAL
+PinHeader_1x10_P2.54mm_Vertical
+Through hole straight pin header, 1x10, 2.54mm pitch, single row
+Through hole pin header THT 1x10 2.54mm single row
+0
+10
+10
+STM32_BREAKOUT_BOARD_TRIAL
+PinHeader_1x11_P2.54mm_Vertical
+Through hole straight pin header, 1x11, 2.54mm pitch, single row
+Through hole pin header THT 1x11 2.54mm single row
+0
+11
+11
+STM32_BREAKOUT_BOARD_TRIAL
+PinHeader_1x15_P2.54mm_Vertical
+Through hole straight pin header, 1x15, 2.54mm pitch, single row
+Through hole pin header THT 1x15 2.54mm single row
+0
+15
+15
+STM32_BREAKOUT_BOARD_TRIAL
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+STM32_BREAKOUT_BOARD_TRIAL
 ST-SiP-LGA-86-11x7.3mm
 STM32WB5MMG  Module, LGA86L 11x7.3
 bluetooth bluetooth5 bluetooth5.0 802.15.4 zigbee thread module stm32 rf

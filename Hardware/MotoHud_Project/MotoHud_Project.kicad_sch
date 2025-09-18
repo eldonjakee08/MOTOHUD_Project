@@ -939,6 +939,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CUSTOM_MODULE:3.5mm_AudioJack_PJ-320A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.5mm_AudioJack_PJ-320A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3.5mm_AudioJack_PJ-320A_0_1"
+				(rectangle
+					(start -3.175 1.27)
+					(end 3.175 1.905)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 13.335) (xy -0.635 16.51) (xy 0.635 16.51) (xy 1.905 13.335) (xy -1.905 13.335)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 12.7)
+					(end 1.905 13.335)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.905 9.525)
+					(end 1.905 12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 8.89)
+					(end 1.905 9.525)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.905 5.715)
+					(end 1.905 8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 5.08)
+					(end 1.905 5.715)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.905 1.905)
+					(end 1.905 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.5mm_AudioJack_PJ-320A_1_1"
+				(pin bidirectional line
+					(at 1.27 13.97 180)
+					(length 2.0066)
+					(name "Tip"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.6096 0.6096)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 10.16 180)
+					(length 2.54)
+					(name "Ring1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.6096 0.6096)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 6.35 180)
+					(length 2.54)
+					(name "Ring2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.6096 0.6096)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 2.54 180)
+					(length 2.54)
+					(name "Sleeve"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.6096 0.6096)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CUSTOM_MODULE:LM3671_MODULE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1210,251 +1427,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2011,6 +1983,28 @@
 		)
 		(uuid "e01036b8-ba81-4f7c-a090-4f629e6c3e49")
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 57.15 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b377bc7-569d-4cf7-a67f-c00bc32ae738")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 82.2862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 34.29 60.96 90)
@@ -2101,44 +2095,44 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 44.45 90.17 180)
+		(at 41.91 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5ccde581-e54a-48ee-a1f2-de70c9d44b67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.8967 90.17 0)
+			(at 41.91 82.3467 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 44.45 87.63 180)
+		(at 45.72 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "66f5e4b3-67d3-447f-b386-0430c2e2c6ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.8362 87.63 0)
+			(at 45.72 82.2862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2255,22 +2249,22 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 44.45 92.71 180)
+		(at 38.1 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b869f5ea-1a96-4cdb-a893-14a608cb98c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.9572 92.71 0)
+			(at 38.1 82.4072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2299,6 +2293,28 @@
 	)
 	(global_label "VDD"
 		(shape input)
+		(at 68.58 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bedf7cb7-dfad-4ad3-8193-86793de147d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 82.2862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
 		(at 128.27 50.8 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2319,9 +2335,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "SDA"
 		(shape input)
-		(at 44.45 95.25 180)
+		(at 57.15 93.98 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2329,9 +2345,53 @@
 			)
 			(justify right)
 		)
+		(uuid "deaf0ef1-b1c4-42c7-b522-5ae8854066dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 100.5333 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 49.53 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "ef30e7aa-d5b1-43b8-90f9-dc8555a17f8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5943 95.25 0)
+			(at 49.53 82.0443 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 68.58 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffc6a912-f3cf-48d4-9918-93cef78d9f86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 100.4728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,6 +2682,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339d0e89-610b-4983-b715-1674808100bb")
+		(property "Reference" "R3"
+			(at 59.69 90.1699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_PUP"
+			(at 59.69 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659f4753-ca70-4ce1-a32b-9895b5fec8ae")
+		)
+		(pin "2"
+			(uuid "79ba3462-0aef-42e0-8d24-886bd451f8d8")
+		)
+		(instances
+			(project ""
+				(path "/a92fda32-0509-471d-967e-b058d7bf7710"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 143.51 0)
 		(unit 1)
@@ -2758,17 +2888,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 49.53 92.71 180)
+		(lib_id "CUSTOM_MODULE:3.5mm_AudioJack_PJ-320A")
+		(at 52.07 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e1cc1ca-2ad5-453a-90ca-fb79eff293d9")
-		(property "Reference" "J1"
-			(at 50.8 90.1699 0)
+		(uuid "4001cd7b-be58-4748-8953-4eef8432aea0")
+		(property "Reference" "U2"
+			(at 33.274 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,8 +2905,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "I2C"
-			(at 50.8 92.7099 0)
+		(property "Value" "3.5mm_AudioJack_PJ-320A"
+			(at 34.29 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,8 +2914,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 49.53 92.71 0)
+		(property "Footprint" "CUSTOM_MODULES:3.5mm_AudioJack_PJ-320A_NoGuide"
+			(at 52.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,8 +2923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 49.53 92.71 0)
+		(property "Datasheet" ""
+			(at 52.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,31 +2932,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 49.53 92.71 0)
+		(property "Description" ""
+			(at 52.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "ac0c2f0f-1d03-4a5d-bc3f-449fce215c66")
 		)
 		(pin "4"
-			(uuid "475d3cf3-dd71-45bc-a488-a35f73c32753")
+			(uuid "f70ea1da-deb1-4715-b324-15400c8e33d6")
 		)
 		(pin "3"
-			(uuid "f3b1a152-2c59-4938-8c64-a10ca670d3b9")
+			(uuid "9be6726f-190a-4d23-8dbe-4a3f54353b4a")
 		)
 		(pin "1"
-			(uuid "d0891313-e097-4fc3-8130-e98c6b196f53")
+			(uuid "0f18e89e-a029-43f9-93e7-b1f93c6e71ef")
+		)
+		(pin "2"
+			(uuid "abb576a2-0a37-4fb2-ad3d-34ffb49a6832")
 		)
 		(instances
 			(project ""
 				(path "/a92fda32-0509-471d-967e-b058d7bf7710"
-					(reference "J1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2965,6 +3094,76 @@
 			(project "MotoHud_Project"
 				(path "/a92fda32-0509-471d-967e-b058d7bf7710"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 68.58 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e4dfff-01a7-4e5e-8483-7d1b6bb417ad")
+		(property "Reference" "R4"
+			(at 71.12 90.1699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_PUP"
+			(at 71.12 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1658e0f2-760c-468a-acad-69d7612bbe1a")
+		)
+		(pin "2"
+			(uuid "e924a8ba-a916-40b9-b4b9-36350d788e50")
+		)
+		(instances
+			(project ""
+				(path "/a92fda32-0509-471d-967e-b058d7bf7710"
+					(reference "R4")
 					(unit 1)
 				)
 			)
