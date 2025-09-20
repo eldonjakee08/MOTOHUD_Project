@@ -1,5 +1,5 @@
 # MotoHUD Project
-A proof of concept project that aims to integrate a heads-up display (HUD) into a motorcycle helmet, projecting real-time ECU sensor data such as speed, RPM, and engine temperature directly into the rider’s field of view during rides.
+A proof of concept project that aims to integrate a heads-up display (HUD) into a motorcycle helmet, projecting real-time ECU sensor data such as speed, RPM, and engine load directly into the rider’s field of view.
 
 This project aims to enhance riders situational awareness and safety by delivering vehicle metrics without requiring the rider to look away from the road.
 
